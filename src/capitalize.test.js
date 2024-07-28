@@ -1,1 +1,5 @@
-test("Jest works", () => expect(1 + 1).toBe(2));
+import capitalize from "./capitalize";
+
+test("Capitalizes empty string", () => {
+  expect(capitalize("")).toBe("");
+});
